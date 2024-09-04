@@ -1,3 +1,0 @@
-[submodule "docs/demo_notebooks"]
-	path = docs/demo_notebooks
-	url = git@github.com:cchdo/demo_notebooks.git
