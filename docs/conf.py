@@ -16,6 +16,7 @@ author = 'The CCHDO Collaboration'
 extensions = [
     "myst_parser",
     "sphinx_design",
+    "nbsphinx",
 ]
 
 templates_path = ['_templates']

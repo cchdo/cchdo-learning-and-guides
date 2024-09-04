@@ -9,4 +9,5 @@ caption: Contents:
 ---
 getting_started
 policy
+demos
 ```
