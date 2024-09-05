@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'CCHDO Learn'
-copyright = '2024, The CCHDO Collaboration'
-author = 'The CCHDO Collaboration'
+copyright = '2024, CCHDO Staff'
+author = 'CCHDO Staff'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -29,3 +29,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+
+html_theme_options = {
+    "logo": {
+        "text": "CCHDO Learning Center",
+    },
+    "collapse_navigation": True
+}
