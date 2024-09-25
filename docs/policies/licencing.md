@@ -1,5 +1,5 @@
 # Data License and DOIs
-Version: Version 2023-11-01
+:version: 2023-11-01
 
 ## Introduction
 
