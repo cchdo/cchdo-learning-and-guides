@@ -1,9 +1,10 @@
 # Demo Jupyter Notebooks
 
 ```{toctree}
----
-maxdepth: 1
----
-```
+:caption: Example Notebooks
+:maxdepth: 1
 
-Links to the notebooks in gh and binder
+demo_notebooks/explore_cchdo
+demo_notebooks/explore_cchdo_bottle
+demo_notebooks/manip_ctd_btl
+```

@@ -14,8 +14,9 @@ author = 'CCHDO Staff'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "myst_parser",
+    #"myst_parser", // myst_nb includes this automatically
     "sphinx_design",
+    "myst_nb",
 ]
 
 myst_enable_extensions = [
@@ -25,6 +26,8 @@ myst_enable_extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+# Just include the notebooks as is
+jupyter_execute_notebooks = "off"
 
 
 # -- Options for HTML output -------------------------------------------------
