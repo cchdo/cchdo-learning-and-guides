@@ -4,6 +4,6 @@
 :caption: Policies
 :hidden:
 
-policies/citation
-policies/licencing
+citation
+licencing
 ```

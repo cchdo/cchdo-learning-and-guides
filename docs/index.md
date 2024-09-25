@@ -7,8 +7,8 @@ Long intro here
 maxdepth: 1
 caption: Contents:
 ---
-getting_started
-policy
+getting_started/index
+policies/index
 demos
 ```
 
