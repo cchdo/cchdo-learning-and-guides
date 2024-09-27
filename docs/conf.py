@@ -22,6 +22,7 @@ extensions = [
 myst_enable_extensions = [
     "fieldlist",
     "dollarmath",
+    "attrs_block",
 ]
 
 templates_path = ['_templates']
