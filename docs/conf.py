@@ -40,6 +40,8 @@ html_static_path = ['_static']
 html_theme_options = {
     "logo": {
         "text": "CCHDO Learning Center",
+        "image_light": "_static/logo_cchdo.svg",
+        "image_dark": "_static/logo_cchdo.svg",
     },
     "collapse_navigation": True
 }
