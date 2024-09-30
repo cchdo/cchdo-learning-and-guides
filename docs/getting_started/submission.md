@@ -54,7 +54,7 @@ If the user does not yet have a data workflow, the .csv option is generally easi
         1. Cast Number (CASTNO)
         1. Sample Number (SAMPNO)
 
-    1. Example CSV [Template][csv_template]
+    1. Example {download}`CSV Template <templates/CSV_Template.csv>`
 1. **NetCDF**
 
     {style=lower-alpha}
@@ -91,4 +91,3 @@ An abridged recommendation on content is provided below, but a comprehensive out
 [cchdo_email]: mailto:cchdo@ucsd.edu
 [parameter_table]: https://exchange-format.readthedocs.io/en/latest/parameters.html
 [in_depth]: submission_detailed
-[csv_template]: broken_link_fix_me_2

@@ -215,7 +215,7 @@ If the user does not yet have a data workflow, the .csv option is generally easi
     * Station Number (STNNBR)
     * Cast Number (CASTNO)
     * Sample Number (SAMPNO)
-* [Example CSV Template](todo_ref)
+* Example {download}`CSV Template <templates/CSV_Template.csv>`
 
 ### NetCDF
 * We recommend following the guidelines from NCEI - <https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html>.
