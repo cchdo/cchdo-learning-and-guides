@@ -49,3 +49,16 @@ html_theme_options = {
     },
     "collapse_navigation": True
 }
+
+
+def setup(app):
+    cloudflare = """(function(d) {
+    script = d.createElement('script');
+    script.type = 'text/javascript';
+    script.defer = true;
+    script.setAttribute("data-cf-beacon", '{"token": "de10da1edc5240c2a8b7948472ec5417"}')
+    script.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    d.getElementsByTagName('head')[0].appendChild(script);
+}(document));
+"""
+    app.add_js_file(None, body=cloudflare)
