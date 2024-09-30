@@ -1,0 +1,10 @@
+BOTTLE,20230830CCHSIOCBG
+#You can add comments proceeded by a #, but the CCHDO does not maintain a standard for header comments
+EXPOCODE,SECT_ID,STNNBR,CASTNO,SAMPNO,BTLNBR,BTLNBR_FLAG_W,DATE,TIME,LATITUDE,LONGITUDE,DEPTH,CTDPRS,CTDPRS_FLAG_W,CTDTMP,CTDTMP_FLAG_W,CTDSAL,CTDSAL_FLAG_W,SALNTY,SALNTY_FLAG_W,CTDOXY,CTDOXY_FLAG_W,OXYGEN,OXYGEN_FLAG_W,SILICAT,SILCAT_FLAG_W
+,,,,,,,,,,,METERS,DBAR,,ITS-90,,PSS-78,,PSS-78,,UMOL/KG,,UMOL/KG,,UMOL/KG,,
+33RR20220613,       P02E,     901,          1,         12,         12,2,20220615,       0046,    24.3195,  -159.2779,       4555,     2.8,2,  26.0814,2,  34.9949,2,-999,9,    199.9,1,  -999,9, -999,9
+33RR20220613,       P02E,     901,          1,         30,         30,2,20220615,       0046,    24.3195,  -159.2779,       4555,     2.9,2,  26.0703,2,  34.9948,2,-999,9,    199.9,1,  -999,9, -999,9
+33RR20220613,       P02E,     901,          1,         19,         19,2,20220615,       0046,    24.3195,  -159.2779,       4555,     3.1,2,  26.0772,2,  34.9947,2,-999,9,    199.5,1,  -999,9, -999,9
+33RR20220613,       P02E,     901,          1,         36,         36,2,20220615,       0046,    24.3195,  -159.2779,       4555,     3.3,2,  26.0760,2,  34.9949,2,-999,9,    199.8,1,  -999,9, -999,9
+33RR20220613,       P02E,     901,          1,         22,         22,2,20220615,       0046,    24.3195,  -159.2779,       4555,     3.3,2,  26.0741,2,  34.9948,2,-999,9,    200.1,1,  -999,9, -999,9
+END_DATA

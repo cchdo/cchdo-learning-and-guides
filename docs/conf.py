@@ -22,6 +22,7 @@ extensions = [
 myst_enable_extensions = [
     "fieldlist",
     "dollarmath",
+    "attrs_block",
 ]
 
 templates_path = ['_templates']
@@ -29,6 +30,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # Just include the notebooks as is
 jupyter_execute_notebooks = "off"
+
+# Automatically number any captioned figures, tables, and code blocks
+numfig = True
 
 
 # -- Options for HTML output -------------------------------------------------

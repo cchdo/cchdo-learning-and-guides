@@ -5,4 +5,5 @@
 :hidden:
 
 submission
+submission_detailed
 ```
