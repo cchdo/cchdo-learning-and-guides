@@ -90,6 +90,6 @@ An abridged recommendation on content is provided below, but a comprehensive out
 
 [cchdo_email]: mailto:cchdo@ucsd.edu
 [parameter_table]: https://exchange-format.readthedocs.io/en/latest/parameters.html
-[in_depth]: broken_link_to_full_guide
+[in_depth]: submission_detailed
 [exchange_template]: broken_link_in_source
 [csv_template]: broken_link_fix_me_2
