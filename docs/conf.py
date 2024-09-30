@@ -31,6 +31,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # Just include the notebooks as is
 jupyter_execute_notebooks = "off"
 
+# Automatically number any captioned figures, tables, and code blocks
+numfig = True
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
