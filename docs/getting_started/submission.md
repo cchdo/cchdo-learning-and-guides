@@ -27,7 +27,7 @@ If the user does not yet have a data workflow, the .csv option is generally easi
 
     {style=lower-alpha}
     1. The Exchange guidelines can be found here: [https://exchange-format.readthedocs.io/en/latest/common.html](https://exchange-format.readthedocs.io/en/latest/common.html)
-    1. Example Exchange [Template][exchange_template]
+    1. Example {download}`Exchange Template <templates/Exchange_Template.csv>`
 
         {style=lower-roman}
         1. For a CTD file, replace ‘BOTTLE’ from the stamp with ‘CTD’
@@ -91,5 +91,4 @@ An abridged recommendation on content is provided below, but a comprehensive out
 [cchdo_email]: mailto:cchdo@ucsd.edu
 [parameter_table]: https://exchange-format.readthedocs.io/en/latest/parameters.html
 [in_depth]: submission_detailed
-[exchange_template]: broken_link_in_source
 [csv_template]: broken_link_fix_me_2
