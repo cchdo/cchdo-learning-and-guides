@@ -30,11 +30,11 @@ The CCHDO highly encourages anyone, especially first time submitters, to send us
    Data licensing should be considered before the cruise takes place. 
 1. **Apply and document appropriate sampling and analytic protocols at sea (Essential)**
 
-   The core of reference-quality CTD/hydrographic/tracer work lies in the application *and documentation* of appropriate methodology. Review recommendations on creating unique identifiers for cruise, station, cast, and samples (see [ref](todo_ref)) in advance, to implement while at sea.
+   The core of reference-quality CTD/hydrographic/tracer work lies in the application *and documentation* of appropriate methodology. Review recommendations on creating unique identifiers for cruise, station, cast, and samples (see {ref}`number_scheme`) in advance, to implement while at sea.
 
 1. Submit data and documentation to the CCHDO (Essential).
 
-   The CCHDO *strongly* recommends that data originators submit their data using one of three formats: WHP-Exchange, CSV with suggested information, or NetCDF with suggested information; see the [Format](todo_ref) section for more details.
+   The CCHDO *strongly* recommends that data originators submit their data using one of three formats: WHP-Exchange, CSV with suggested information, or NetCDF with suggested information; see the {ref}`formats` section for more details.
 
    The following minimum required ancillary information is requested in the data submission portal:
 
@@ -50,6 +50,7 @@ The CCHDO highly encourages anyone, especially first time submitters, to send us
 
 ### General Guidelines
 
+(parameter-naming)=
 #### Parameter Naming
 
 *The CCHDO strongly requests that all parameters used in a CTD or bottle data file come from:*
@@ -66,12 +67,13 @@ Data providers are encouraged to report data in the standard units given in the 
 
 #### Data quality evaluation and data quality flags
 To monitor, evaluate, maintain, and later access the data, it is advisable to keep individual records for the quality of each measurement. 
-We recommend that data originators provide a quality flag for each measured value when feasible, preferably using WOCE quality flags (see Tables [2.1](todo_ref), [2.2](todo_ref), and [2.3](todo_ref) for specific applications).
+We recommend that data originators provide a quality flag for each measured value when feasible, preferably using WOCE quality flags (see {numref}`ctd_qc_flags`, {numref}`bottle_qc_flags`, and {numref}`param_qc_flags` for specific applications).
 We also accept the flagging systems that are mapped in the following document and request that the alternative flagging schema used is documented in the submission notes:
 <https://odv.awi.de/fileadmin/user_upload/odv/misc/ODV_QualityFlagSets.pdf>
 
 For more information on quality assurance and documentation procedures see "[Reference-Quality Water Sample Data, Notes on Acquisition, Record Keeping, and Evaluation][swift_2018]"
 
+(ctd-data)=
 ### CTD Data
 Typically submitted as a directory of _ct1.csv data files or a zipped _ct1.zip directory of _ct1.csv data files of CTD profiles (described in <https://exchange-format.readthedocs.io/en/latest/ctd.html>).
 Quality flags for CTD data are optional but highly recommended and should accompany every measured parameter ({numref}`ctd_qc_flags`). If flags are used, CCHDO recommends the WOCE quality flags.
@@ -92,6 +94,7 @@ Quality flags for CTD data are optional but highly recommended and should accomp
 | 9 | Not sampled |
 ```
 
+(bottle-data)=
 ### Bottle Data
 
 A submitted bottle data file, preferably a _hy1.csv file (i.e., in WHP-Exchange format, see <https://exchange-format.readthedocs.io/en/latest/bottle.html> for more details), contains the results from all small volume water sample measurements made during the cruise.
@@ -183,6 +186,7 @@ Techniques should be described in detail if no published reference exists.
 
 It is extremely helpful if each measurement group’s report includes an assessment of the uncertainty of the measurements and notes of any problems peculiar to the data gathered during the cruise. 
 
+(formats)=
 ## Formats
 In an effort to ensure a diverse community can easily exchange data and the CCHDO can streamline data processing, the CCHDO strongly recommends standard formats, consistent naming conventions, and common units for data reporting, as described below.
 Standardizing heterogeneous data is intensively time consuming, and the CCHDO can best serve the community when incoming data meet standards and can be assembled efficiently.
@@ -197,7 +201,7 @@ If the user does not yet have a data workflow, the .csv option is generally easi
     * For a CTD file, replace ‘BOTTLE’ from the stamp with ‘CTD’
 
 ### A .csv that contains the following information; in the data file, please use the parameter name in parentheses, with no variations:
-* If this is the first time data is submitted for a cruise: 	
+* If this is the first time data is submitted for a cruise:  
     * Expocode (EXPOCODE)
     * Station Number (STNNBR)
     * Cast Number (CASTNO)
@@ -211,12 +215,12 @@ If the user does not yet have a data workflow, the .csv option is generally easi
     * Station Number (STNNBR)
     * Cast Number (CASTNO)
     * Sample Number (SAMPNO)
-* Example CSV Template
+* [Example CSV Template](todo_ref)
 
 ### NetCDF
 * We recommend following the guidelines from NCEI - <https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html>.
   Specifically, we recommend the profile template found on the NCEI page. It is most likely that the ‘profile’ template is most relevant 
-* Use netCDF names and attributes as listed in our parameter table
+* Use netCDF names and attributes as listed in our [parameter table][parameter_table]
     * The same parameters required in the .csv format (Expocode, station, cast, sample, etc.) are required in this format
 * We recommend details to be in the attributes rather than highly descriptive/assumptive variable names
 
@@ -225,9 +229,11 @@ The original souce did something that is not structually valid by "dedenting" fr
 -->
 
 ### General Recomendations
-As described more fully in other sections, the CCHDO also requests that all parameters within the data file should be found using our parameter table (see section 2a for more information). Additionally, a WOCE quality flag should be included for each measured parameter (see Sections 2a (CTD) or 2b (bottle) for further information).
+As described more fully in other sections, the CCHDO also requests that all parameters within the data file should be found using our [parameter table][parameter_table] (see section {ref}`parameter-naming` for more information).
+Additionally, a WOCE quality flag should be included for each measured parameter (see Sections {ref}`ctd-data` or {ref}`bottle-data` for further information).
 
-The CCHDO does not have recommendations on header comments. However, if there is information that should be retained with the data and is valuable in the long-term, data submitters can add header comments, preceded by # (hash sign).
+The CCHDO does not have recommendations on header comments.
+However, if there is information that should be retained with the data and is valuable in the long-term, data submitters can add header comments, preceded by # (hash sign).
 
 For each expedition, the data submitted to the CCHDO should include the following files: 
 
@@ -278,11 +284,97 @@ The bottle number is defined as: (1) the permanent, unique serial number (alphan
 If, for example, bottles 11 and 12 are removed during the cruise to mount another instrument on the rosette, the bottle in the 13th position should remain BTLNBR 13, even though the sample from that bottle would now be SAMPNO 11. 
 
 ## References
+```{eval-rst}
+
+.. [Hood2010] Hood, E. M. (2010). Introduction to the collection of expert reports and guidelines. The GO-SHIP Repeat Hydrography Manual: A Collection of Expert Reports and Guidelines. Hood, EM, CL Sabine, and BM Sloyan, eds. IOCCP Report, (14). https://doi.org/10.25607/OBP-1351
+
+.. [Joyce1994] Joyce, T. and C. Corry (1994), Requirements for WOCE Hydrographic Programme Data Reporting, WHPO Publication 90-1 Revision 2, WOCE Report 67/91, Woods Hole, Mass., USA
+
+.. [Swift2008] Swift, J. H. (2008), A Guide to Submitting CTD/Hydrographic/Tracer Data and Associated Documentation to the CLIVAR and Carbon Hydrographic Data Office, https://cchdo.github.io/hdo-assets/documentation/policies/CCHDO_DataSubmitGuide.pdf, San Diego, CA., USA
+
+.. [Swift2010] Swift, J. H. (2010) Reference-Quality Water Sample Data: Notes on Acquisition, Record Keeping, and Evaluation. In, The GO-SHIP Repeat Hydrography Manual: A Collection of Expert Reports and Guidelines. Version 1, (eds Hood, E.M., C.L. Sabine, and B.M. Sloyan), 38pp. (IOCCP Report Number 14; ICPO Publication Series Number 134). DOI: https://doi.org/10.25607/OBP-1346
+
+```
+
 
 (outline_cruise_report)=
 ## Appendix A - Outline of a Cruise Report
+{style=upper-alpha}
+1. **Cruise narrative**
+    1. **Highlights**
+
+        {style=lower-alpha}
+        1. Cruise designation (cruise name) (e.g., "AIS01" for Amery Ice Shelf 1) [or, for a repeated WOCE-era section, the section designation(s), for example A11, IR04, etc. Include all sections covered on cruise]
+        1. EXPOCODE 
+        1. Chief scientist for each leg, including contact information (email preferred)
+        1. Ship name
+        1. Ports of call. Port(s) where cruise begins and ends plus any stops during the cruise
+        1. Cruise dates (Official ship's log date of departure & return for each leg)
+
+    1. **Cruise Summary Information**
+
+        {style=lower-alpha}
+        1. Written description of the survey's geographic boundaries
+        1. Total number of stations occupied for each section, broken down by type of station and parameters sampled at each station
+        1. Detailed list of each and every parameter measured on the cruise
+        1. Floats and drifters deployed (type, identification number, location, and time)
+        1. Moorings deployed or recovered (type, identification, location, and time)
+
+     1. **List of Principal Investigators for All Measurements**
+
+        {style=lower-alpha}
+        1. Name (first and last) and/or persistent unique identifier (ORCid)
+        1. Measurement responsibility
+        1. Institution or affiliation (abbreviations should be defined)
+        1. Contact information, email preferred
+
+    1. **Scientific Program and Methods**
+
+        {style=lower-alpha}
+        1. Narrative
+        1. Interlaboratory comparisons made (if any) or comparisons with previous cruise data
+        1. (Optional) Vertical sections along the ship's track showing the bottle depth distributions, and plots of property vs. property relationships
+    
+    1. **Major Problems and Goals Not Achieved**
+    1. **Other Incidents of Note**
+
+1. **Underway Measurements**
+    1. Navigation and bathymetry
+    1. Acoustic Doppler Current Profiler (ADCP)
+    1. Thermosalinograph and underway dissolved oxygen, fluorometer, etc.
+    1. XBT and XCTD
+    1. Meteorological observations
+    1. Atmospheric chemistry
+1. **Hydrographic Measurements - Descriptions, Techniques, and Calibrations**
+
+    A discussion of each measurement type, including the following sub-headings as they apply:
+
+    1.  Measurement name(s), section author's name(s) (date, or revision date)
+
+        {style=lower-alpha}
+        1. Description of equipment and technique or published reference.
+        1. Sampling and data processing techniques followed or published reference for these techniques.
+        1. Calibration data, including dates and laboratory where calibrations were done.
+        1. Error estimates and noise sources, including:
+           * effect of noise on samples and
+           * comparisons with historical data or test stations.
+        1. Laboratory and sample temperatures where required.
+        1. Replicate analyses (tables).
+        1. Standards used (for example, standard sea water batch number and ampoule number of standard sea water for each station).
+        1. Reagents: purity and concentrations of stock solutions, where applicable.
+        1. Values for blanks, where applicable (blank values should be subtracted from the data).
+        1. Atmospheric values for tracers, where applicable.
+1. **Acknowledgments**
+
+   Funding sources, contract numbers, contributors, etc. 
+1. **References**
+1. **Appendices**
+
+   Deck logs, water sample quality assessment notes, etc.
+
 
 
 [submission_summary]: submission
 [cchdo_email]: mailto:cchdo@ucsd.edu
 [swift_2018]: https://cchdo.github.io/hdo-assets/documentation/policies/Data_Evaluation_reference.pdf
+[parameter_table]: https://exchange-format.readthedocs.io/en/latest/parameters.html#
