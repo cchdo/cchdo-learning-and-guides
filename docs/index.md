@@ -1,15 +1,16 @@
-# Learning and Guides
+# CCHDO Documentation Site
 
-Long intro here
-
+Welcome, explore our resources and guides below: 
+blah blah blah 
 ```{toctree}
 ---
 maxdepth: 1
 caption: Contents:
 ---
 getting_started/index
-policies/index
-demos
+submitting_data/index
+policies_and_procedures/index
+teaching_with_cchdo/index
 ```
 
 Documentation resources (to organize)
