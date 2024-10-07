@@ -1,4 +1,4 @@
-# CCHDO Documentation Site
+# CCHDO Documentation
 
 Welcome, explore our resources and guides below: 
 ```{toctree}
