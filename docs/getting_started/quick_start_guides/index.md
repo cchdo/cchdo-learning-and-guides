@@ -7,6 +7,6 @@ Explore the following Jupyter Notebooks to get hands-on experience with CCHDO da
 maxdepth: 1
 caption: Quick Start Guides:
 ---
-../../demo_notebooks/explore_cchdo
-../../demo_notebooks/explore_cchdo_btl
-../../demo_notebooks/manip_ctd_btl
+notebooks/explore_cchdo
+notebooks/explore_cchdo_bottle
+notebooks/manip_ctd_btl
