@@ -1,4 +1,4 @@
-# A Guide to Submitting Data and Associated Documentation to the CCHDO
+# Submitting Data and Documentation to CCHDO - Detailed
 
 :version: V1 2024-08-08
 

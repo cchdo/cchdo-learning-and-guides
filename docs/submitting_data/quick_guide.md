@@ -1,4 +1,4 @@
-# CCHDO Summary Data Submission Guidelines
+# Submitting Data and Documentation to CCHDO - Summary
 
 :version: 2024-08-08
 
