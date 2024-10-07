@@ -90,4 +90,4 @@ An abridged recommendation on content is provided below, but a comprehensive out
 
 [cchdo_email]: mailto:cchdo@ucsd.edu
 [parameter_table]: https://exchange-format.readthedocs.io/en/latest/parameters.html
-[in_depth]: submission_detailed
+[in_depth]: detailed_guide

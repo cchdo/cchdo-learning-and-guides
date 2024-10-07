@@ -16,9 +16,9 @@ For an abridged version of data submission guidelines, please refer to the follo
 
 For further information about the CCHDO and its holdings, please see: <https://cchdo.ucsd.edu/>. 
 
-More information on the CCHDO data license policy, CCHDO use of DOIs and attribution can be found here: [](../policies/licencing).
+More information on the CCHDO data license policy, CCHDO use of DOIs and attribution can be found here: [](../policies_and_procedures/data_license).
 
-For more information on the CCHDO data citation policy, please see: [](../policies/citation)
+For more information on the CCHDO data citation policy, please see: [](../policies_and_procedures/how_to_cite)
 
 The CCHDO highly encourages anyone, especially first time submitters, to send us an email if they have any questions. We are very happy to help! Email us at [cchdo@ucsd.edu][cchdo_email]
 
@@ -374,7 +374,7 @@ If, for example, bottles 11 and 12 are removed during the cruise to mount anothe
 
 
 
-[submission_summary]: submission
+[submission_summary]: quick_guide
 [cchdo_email]: mailto:cchdo@ucsd.edu
 [swift_2018]: https://cchdo.github.io/hdo-assets/documentation/policies/Data_Evaluation_reference.pdf
 [parameter_table]: https://exchange-format.readthedocs.io/en/latest/parameters.html#
