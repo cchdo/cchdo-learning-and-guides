@@ -45,14 +45,18 @@ html_theme_options = {
         "text": "CCHDO Documentation",
         "image_light": "_static/logo_cchdo.svg",
         "image_dark": "_static/logo_cchdo.svg",
+        "link": "/",
     },
     "collapse_navigation": True,
     # Add Google Analytics
     "analytics": {
         "google_analytics_id": "G-89QCC25DF0",
-    }
+    },
+    "navigation_with_keys": False,
 }
-
+html_css_files = [
+    'custom.css',
+]
 
 def setup(app):
     cloudflare = """(function(d) {

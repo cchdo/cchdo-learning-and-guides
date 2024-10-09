@@ -1,0 +1,22 @@
+/* update theme color, light */
+html[data-theme="light"] {
+    --pst-color-primary: #337ab7;
+    --pst-color-secondary: #23527c
+}
+
+/* update theme color, dark */
+html[data-theme="dark"] {
+    --pst-color-primary: #337ab7;
+    --pst-color-secondary: #23527c
+}
+
+/* disable previous/next links at footer */
+.prev-next-footer {
+    display: none;
+}
+
+/* Hide the secondary sidebar */
+.bd-sidebar-secondary {
+    display: none;
+}
+
