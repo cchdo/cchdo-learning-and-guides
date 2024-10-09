@@ -1,3 +1,3 @@
 [submodule "docs/getting_started/quick_start_guides/notebooks"]
 	path = docs/getting_started/quick_start_guides/notebooks
-	url = https://github.com/cchdo/cchdo-learning-and-guides.git
+	url = https://github.com/cchdo/demo_notebooks.git
