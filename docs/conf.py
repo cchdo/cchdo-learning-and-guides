@@ -39,6 +39,7 @@ numfig = True
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+html_show_sourcelink = False
 
 html_theme_options = {
     "logo": {
