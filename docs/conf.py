@@ -7,7 +7,6 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'CCHDO Learn'
-copyright = '2024, CCHDO Staff'
 author = 'CCHDO Staff'
 
 # -- General configuration ---------------------------------------------------
