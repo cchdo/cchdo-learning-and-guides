@@ -15,8 +15,3 @@ html[data-theme="dark"] {
     display: none;
 }
 
-/* Hide the secondary sidebar */
-.bd-sidebar-secondary {
-    display: none;
-}
-
