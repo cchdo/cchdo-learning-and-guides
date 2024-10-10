@@ -1,0 +1,11 @@
+/* update theme color, light */
+html[data-theme="light"] {
+    --pst-color-primary: #337ab7;
+    --pst-color-secondary: #23527c
+}
+
+/* update theme color, dark */
+html[data-theme="dark"] {
+    --pst-color-primary: #337ab7;
+    --pst-color-secondary: #23527c
+}
