@@ -7,6 +7,7 @@ Find detailed instructions for submitting data and associated documentation to t
 maxdepth: 1
 caption: Submitting Data:
 ---
+CCHDO Submission Page <https://cchdo.ucsd.edu/submit>
 quick_guide
 detailed_guide
-common_errors
+faq
