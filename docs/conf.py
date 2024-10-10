@@ -48,6 +48,9 @@ html_theme_options = {
         "image_dark": "_static/logo_cchdo.svg",
     },
     "collapse_navigation": True,
+    "external_links": [
+        {"name": "Main CCHDO Site", "url": "https://cchdo.ucsd.edu"}  # Add this external link for the main site
+    ],
     # Add Google Analytics
     "analytics": {
         "google_analytics_id": "G-89QCC25DF0",
