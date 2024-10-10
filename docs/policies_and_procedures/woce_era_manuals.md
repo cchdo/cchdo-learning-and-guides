@@ -28,11 +28,11 @@ The WOCE Manuals are provided for historic purposes. The [current manuals](http:
 - [History of Revisions](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/91_1hist.pdf)
 - [Introduction (Joyce)](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/introjoy.pdf)
 
-## Calibrations and Standards
+### Calibrations and Standards
 - [Standards and Laboratory Calibration](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/saunders.pdf)
 - [CFCs, 3He-tritium, and Small Volume Radiocarbon](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/bullster.pdf)
 
-## Methods for Water Sampling
+### Methods for Water Sampling
 - [Salinity Measurements (Stalcup)](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/stal.pdf)
 - [Measuring Helium Isotopes and Tritium in Seawater Samples](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/jenknew.pdf)
 - [CFC Data Processing Quality Control Steps](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/vanwoy.pdf)
@@ -45,13 +45,13 @@ The WOCE Manuals are provided for historic purposes. The [current manuals](http:
 - [Dissolved Oxygen by Winkler Titration](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/dickson2.pdf)
 - [Zen and the Art of Gerard Barrel Maintenance](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/key3.pdf)
 
-## Underway Measurements
+### Underway Measurements
 - [WHP Subgroup on Underway Measurements](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/zenk.pdf)
 - [Acoustic Doppler Current Profiling Measurements and Navigation](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/firadcp.pdf)
 - [Near-Surface Temperature, Salinity, and Bathymetry Measurements](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/mueller.pdf)
 - [Meteorological Measurement from WOCE Research Ships](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/taynew.pdf)
 
-## CTD Methods
+### CTD Methods
 - [Introduction to Conductivity-Temperature-Depth Methods](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/introctd.pdf)
 - [CTD Oxygen Calibration Procedure](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/ctdmil.pdf)
 - [Calculation of Physical Properties of Seawater](https://cchdo.github.io/hdo-assets/documentation/manuals/pdf/91_1/algo6.pdf)
