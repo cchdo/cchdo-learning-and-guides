@@ -9,5 +9,4 @@ caption: Contents:
 getting_started/index
 submitting_data/index
 policies_and_procedures/index
-teaching_with_cchdo/index
 ```
