@@ -10,7 +10,7 @@ If there is any reason that multiple values for one sample must be reported, ple
 ---
 
 ## Should I submit my data to NCEI as well?
-No. The CCHDO archives all core data at NCEI, so please do not submit there. If your data are not in the core dataset (and fall under "ancillary data"), then you can submit these data to NCEI.
+No. The CCHDO archives all core data at NCEI, so please do not submit there. If your data are not in the core dataset (and fall under "ancillary data"), then you can submit these data to NCEI. 
 
 ---
 
