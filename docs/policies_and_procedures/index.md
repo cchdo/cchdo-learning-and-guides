@@ -9,6 +9,7 @@ caption: Policies and Procedures:
 ---
 how_to_cite
 data_license
+data_scope
 cruise_documentation
 data_evaluation_reference
 woce_era_manuals
