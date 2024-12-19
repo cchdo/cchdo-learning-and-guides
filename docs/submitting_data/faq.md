@@ -1,6 +1,14 @@
 # Frequently Asked Questions (FAQ)
-Find answers to commonly asked questions related to data submission:
+Find answers to commonly asked questions related to data submission.
 
+## Where can I find quality control flag definitions?
+The CCHDO uses WOCE quality flags that can be found in our [detailed submission guidelines](../submitting_data/detailed_guide.md#data-quality-evaluation-and-data-quality-flags). 
+```{caution}
+There are three distinct sets of flag definitions: one for CTD data, one for discrete bottle samples, and one for the bottle itself. 
+```
+
+
+---
 
  ## What do I do with replicates?
 The CCHDO asks for one value to be reported per sample, and for this value to be determined by the data originator following whatever method they would prefer. The CCHDO requests that any mathematical operations on values, such as averaging, be performed by the data originator. Values that result from averaging should be flagged `6` and detailed in the cruise report.
