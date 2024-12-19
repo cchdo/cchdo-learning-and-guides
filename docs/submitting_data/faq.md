@@ -3,7 +3,10 @@ Find answers to commonly asked questions related to data submission.
 
 ## Where can I find quality control flag definitions?
 The CCHDO uses WOCE quality flags that can be found in our [detailed submission guidelines](../submitting_data/detailed_guide.md#data-quality-evaluation-and-data-quality-flags). 
-Note that there are three sets of flag definitions: one for CTD data, one for discrete bottle samples, and one for the bottle. 
+```{caution}
+There are three distinct sets of flag definitions: one for CTD data, one for discrete bottle samples, and one for the bottle itself. 
+```
+
 
 ---
 
