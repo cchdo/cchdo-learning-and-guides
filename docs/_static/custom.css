@@ -9,12 +9,3 @@ html[data-theme="dark"] {
     --pst-color-primary: #337ab7;
     --pst-color-secondary: #23527c
 }
-
-/*
- * temp fix for left panel scrollbar issue
- * https://github.com/pydata/pydata-sphinx-theme/issues/1238
- */
-.sidebar-primary-items__end {
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
-}
