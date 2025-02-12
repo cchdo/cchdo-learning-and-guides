@@ -188,7 +188,7 @@ It is extremely helpful if each measurement group’s report includes an assessm
 
 (formats)=
 ## Formats
-In an effort to ensure a diverse community can easily exchange data and the CCHDO can streamline data processing, the CCHDO strongly recommends standard formats, consistent naming conventions, and common units for data reporting, as described below.
+In an effort to ensure that data can be easily exchanged and the CCHDO can streamline data processing, the CCHDO strongly recommends standard formats, consistent naming conventions, and common units for data reporting, as described below.
 Standardizing heterogeneous data is intensively time consuming, and the CCHDO can best serve the community when incoming data meet standards and can be assembled efficiently.
 
 Specifically, the CCHDO requests that, when possible, all CTD and bottle data be submitted in one of three formats.

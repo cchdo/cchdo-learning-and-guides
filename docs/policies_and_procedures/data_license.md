@@ -4,7 +4,7 @@
 ## Introduction
 
 Because of changing journal publisher expectations and DOI requirements, it is increasingly important for CCHDO to provide explicit guidance on the copyright (use license) statement for data in the CCHDO, and how data should be cited.
-The CCHDO seeks to balance scholarly credit, diverse international policy and norms, scientific progress, and tractability with the following policy.
+The CCHDO seeks to balance scholarly credit, various international policies and norms, scientific progress, and tractability with the following policy.
 
 ## Policy
 1. The CCHDO strongly recommends that data submitters agree to the [widely recommended](https://wiki.creativecommons.org/wiki/CC0_use_for_data) Creative Commons ["CC 0"](https://creativecommons.org/publicdomain/zero/1.0/) license for data accessible through CCHDO. 
