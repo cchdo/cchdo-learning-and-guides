@@ -33,4 +33,6 @@ CCHDO accepts only discrete CTD and bottle data from repeat hydrography cruises,
 
 If you have underway data to archive, we suggest you work with your funding agency and national oceanographic data center(s) to identify an appropriate repository. In the US, raw underway data are managed by the [Rolling Deck to Repository program](http://www.rvdata.us) for the [US Academic Research Fleet](https://www.unols.org/ships-facilities/unols-vessels/unols-designated-vessels/unols-designated-vessels). If you have a post-processed product from a US vessel, we recommend submitting to NOAA's National Centers for Environmental Information (NCEI), via their [submission tool](https://www.ncei.noaa.gov/archive/send2ncei/).
 
+```{note}
 Discrete surface measurements collected via the underway system that correspond to specific station locations may be submitted to CCHDO for integration into the bottle data file (i.e., added as rows representing 0 dbar).
+```
