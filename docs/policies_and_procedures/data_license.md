@@ -1,5 +1,5 @@
 # Data License and DOIs
-:version: 2023-11-01
+:version: 2025-12-01
 
 ## Introduction
 
@@ -21,6 +21,7 @@ The CCHDO seeks to balance scholarly credit, various international policies and 
 1. Scientists publishing from data in the CCHDO's holdings are asked to keep track of and include individual citations for the data they have used, when reasonable.
 1. Periodically, the full public CCHDO holdings will be [preserved for long-term access](https://doi.org/10.6075/J0CCHAM8) and a Digital Object Identifier (DOI) created specific to each version.
    Scientists using data from the CCHDO should cite CCHDO, selecting the snapshot version which most closely matches the date of access, and using the citation information found on the version’s page.
+1. CCHDO issues DOIs for the entire data collection (snapshots). However, if you require a specific DOI for your dataset (for example, to cite in a publication), we can mint one upon request. Please indicate this need when submitting your data or [contact us](https://cchdo.ucsd.edu/contact).
 
 ## Summary of Responsibilities for Scientists
 * If you are submitting data to the CCHDO, you must inform the CCHDO if your data require a CC BY license; a CC 0 license will be assumed if there is no specific request.
