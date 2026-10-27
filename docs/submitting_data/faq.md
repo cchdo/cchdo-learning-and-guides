@@ -1,7 +1,7 @@
 # Frequently Asked Questions (FAQ) - Submission
 
 ## Where can I find quality control flag definitions?
-The CCHDO uses WOCE quality flags that are defined in the [exchane format Quality Codes section](https://exchange-format.readthedocs.io/en/latest/quality.html). 
+The CCHDO uses WOCE quality flags that are defined in the [exchange format Quality Codes section](https://exchange-format.readthedocs.io/en/latest/quality.html). 
 ```{caution}
 There are three distinct sets of flag definitions: one for CTD data, one for discrete bottle samples, and one for the bottle itself. 
 ```
